@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <title>Responsive Page</title>
+</head>
+<body>
+  <header id="header">
+    <img src="logo.png" class="logo" alt="logo">
+    <ul>
+        <li><a href="#home" class="active" onclick="toggle()">Home</a></li>
+        <li><a href="#about" onclick="toggle()">About</a></li>
+        <li><a href="#services" onclick="toggle()">Services</a></li>
+        <li><a href="#portfolio" onclick="toggle()">Portfolio</a></li>
+        <li><a href="#team" onclick="toggle()">Team</a></li>
+        <li><a href="#contact" onclick="toggle()">Contact</a></li>
+    </ul>
+    <div class="toggle" onclick="toggle()"></div>
+  </header>
+  <section id="home">
+    <div>
+      <h2>Responsive Website</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aperiam quos voluptate quasi, repudiandae ullam eius laborum animi molestiae doloremque cumque adipisci quae vero? Corporis, facere. Sunt, ipsa. Maxime, tempore?</p>
+      <a href="#">Read more</a>
+    </div>
+    <img src="https://blog.matcharesident.com/wp-content/uploads/2019/07/iStock-944453634.jpg" alt="img">
+  </section>
+
+  <section id="about">
+    <div>
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aperiam quos voluptate quasi, repudiandae ullam eius laborum animi molestiae doloremque cumque adipisci quae vero? Corporis, facere. Sunt, ipsa. Maxime, tempore?</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div>
+      <h2>Our Services</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aperiam quos voluptate quasi, repudiandae ullam eius laborum animi molestiae doloremque cumque adipisci quae vero? Corporis, facere. Sunt, ipsa. Maxime, tempore?</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div>
+      <h2>Our Recent Works</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aperiam quos voluptate quasi, repudiandae ullam eius laborum animi molestiae doloremque cumque adipisci quae vero? Corporis, facere. Sunt, ipsa. Maxime, tempore?</p>
+    </div>
+  </section>
+
+  <section id="team">
+    <div>
+      <h2>Our Expert</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aperiam quos voluptate quasi, repudiandae ullam eius laborum animi molestiae doloremque cumque adipisci quae vero? Corporis, facere. Sunt, ipsa. Maxime, tempore?</p>
+    </div>
+  </section> 
+
+  <section id="contact">
+    <div>
+      <h2>Contact Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aperiam quos voluptate quasi, repudiandae ullam eius laborum animi molestiae doloremque cumque adipisci quae vero? Corporis, facere. Sunt, ipsa. Maxime, tempore?</p>
+    </div>
+  </section> 
+
+  <footer>
+    <p>Todos os Direitos Reservados</p>
+  </footer>
+       
+  <script type="text/javascript">
+    function toggle() {
+      let header = document.getElementById("header")
+      header.classList.toggle('active')
+    }
+  </script>
+  
+</body>
+</html>
